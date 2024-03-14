@@ -23,7 +23,7 @@ jobs:
       - name: Check Docs
         env:
           # renovate: datasource=docker depName=jnorwood/helm-docs
-          HELM_DOCS_VERSION: v1.8.1
+          HELM_DOCS_VERSION: v1.13.1
         run: |
           docker run --rm --volume "$(pwd):/helm-docs" -u "$(id -u)" jnorwood/helm-docs:${{ env.HELM_DOCS_VERSION }}
           if ! git diff --exit-code; then
