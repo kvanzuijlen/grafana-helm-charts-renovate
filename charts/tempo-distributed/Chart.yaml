@@ -2,7 +2,7 @@ apiVersion: v2
 name: tempo-distributed
 description: Grafana Tempo in MicroService mode
 type: application
-version: 1.8.5
+version: 1.8.6
 # renovate: datasource=docker depName=docker.io/grafana/tempo
 appVersion: 2.3.1
 engine: gotpl
@@ -29,6 +29,6 @@ dependencies:
     condition: minio.enabled
   - name: grafana-agent-operator
     alias: grafana-agent-operator
-    version: 0.2.2
+    version: 0.3.19
     repository: https://grafana.github.io/helm-charts
     condition: metaMonitoring.grafanaAgent.installOperator
