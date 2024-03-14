@@ -3,7 +3,7 @@ name: snyk-exporter
 description: Prometheus exporter for Snyk.
 version: 0.1.0
 # renovate: datasource=docker depName=docker.io/grafana/snyk_exporter
-appVersion: v1.4.1
+appVersion: v1.11.15
 home: https://github.com/grafana/snyk_exporter
 icon: https://res.cloudinary.com/snyk/image/upload/v1537346326/press-kit/brand/avatar.png
 maintainers:
