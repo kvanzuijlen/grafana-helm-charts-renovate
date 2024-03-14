@@ -146,7 +146,7 @@ jobs:
         uses: azure/setup-helm@v1
         with:
           # renovate: datasource=github-tags depName=helm packageName=helm/helm
-          version: v3.5.2
+          version: v3.14.3
 
       - name: Add dependency chart repos
         # Todo replace this by https://github.com/grafana/helm-charts/issues/1534

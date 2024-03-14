@@ -16,7 +16,7 @@ on:
       helm_version:
         description: version of the helm binary
         # renovate: datasource=github-tags depName=helm packageName=helm/helm
-        default: v3.8.2
+        default: v3.14.3
         required: false
         type: string
       kind_kubectl_version:
