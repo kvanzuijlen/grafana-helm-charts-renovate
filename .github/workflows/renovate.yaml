@@ -33,7 +33,7 @@ jobs:
           docker-user: root
         env:
           LOG_LEVEL: 'debug'
-          RENOVATE_REPOSITORIES: ${{ github.repository }}
+          RENOVATE_REPOSITORIES: '["${{ github.repository }}"]'
           RENOVATE_PLATFORM: github
 
           RENOVATE_ALLOWED_POST_UPGRADE_COMMANDS: '["^\.github\/renovate-postupgrade\.sh \"charts/[\w-]+/Chart.yaml\"$"]'
