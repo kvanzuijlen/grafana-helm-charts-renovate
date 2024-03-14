@@ -41,7 +41,7 @@ env:
   CR_PACKAGE_PATH: "${{ github.workspace }}/.cr-release-packages"
   CR_TOOL_PATH: "${{ github.workspace }}/.cr-tool"
   # renovate: datasource=github-tags depName=helm/chart-releaser extractVersion=^v?(?<version>.*)$
-  CR_TOOL_VERSION: 1.4.0
+  CR_TOOL_VERSION: 1.6.1
   HELM_TAG_PREFIX: "${{ inputs.helm_tag_prefix }}"
 
 jobs:
