@@ -3,7 +3,7 @@ name: "enterprise-logs"
 type: application
 version: "2.5.0"
 # renovate: datasource=docker depName=docker.io/grafana/enterprise-logs
-appVersion: "v1.5.2"
+appVersion: "1.8.7"
 kubeVersion: "^1.10.0-0"
 description: "Grafana Enterprise Logs"
 home: "https://grafana.com/products/enterprise/logs/"
